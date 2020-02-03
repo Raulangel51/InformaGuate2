@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">InformaGuate2</string>
+    <string name="nombre">Nombre</string>
+    <string name="tikal">Tikal</string>
+    <string name="retahuleu">Retahuleu</string>
+    <string name="antigua">Antigua</string>
+    <string name="todo">TODO</string>
+    <string name="antigua_guatemala">Antigua Guatemala</string>
+    <string name="article_text">Article Text</string>
+    <string name="comentar">Comentar</string>
+    <string name="tikal_ruinas">Tikal Ruinas</string>
+    <string name="reu">Reu</string>
+</resources>
