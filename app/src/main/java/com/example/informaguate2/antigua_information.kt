@@ -20,9 +20,11 @@ class antigua_information : AppCompatActivity() {
     }
 
     fun regresar(view: View){
+        //realiza en intetn para mandar otra vez a la principal
         intento = Intent(this, MainActivity::class.java);
         startActivity(intento);
 
+        //se muestra el toast con el comentario
         val toast = Toast.makeText(applicationContext, comentario.text, Toast.LENGTH_SHORT)
         toast.show();
 

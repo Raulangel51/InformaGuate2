@@ -6,13 +6,15 @@
     tools:context=".tikal_information">
 
     <TextView
+        android:id="@+id/article_heading"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/article_heading"
+        android:fontFamily="@font/roboto_thin"
         android:padding="@dimen/padding_regular"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
-        android:textStyle="bold"
-        android:text="@string/tikal" />
+        android:text="@string/tikal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="50sp"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="match_parent"
@@ -26,7 +28,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:id="@+id/scroll"
         android:layout_below="@id/article_subheading">
 
@@ -37,7 +39,7 @@
             android:layout_below="@id/article_subheading"
             android:lineSpacingExtra="5sp"
             android:padding="@dimen/padding_regular"
-            android:text="@string/article_text" />
+            android:text="@string/article_tikal" />
 
     </ScrollView>
 

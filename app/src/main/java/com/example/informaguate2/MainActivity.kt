@@ -10,6 +10,7 @@ import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
 
+    //variables a utilizar
     lateinit var mostrar: TextView;
     lateinit var text: TextView;
     lateinit var  nombre: EditText;
@@ -48,16 +49,20 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun AntiguaInfo(view: View){
+        //manda a la aplicacion de antigua
         intento = Intent(this,antigua_information::class.java);
         startActivity(intento);
+
     }
 
     fun Tikal(view: View){
+        //manda a la aplicacion de tikal
         intento = Intent(this, tikal_information::class.java)
         startActivity(intento);
     }
 
     fun Reu(view: View){
+        //manda a la aplicacion a reu
         intento = Intent(this,reu_information::class.java)
         startActivity(intento);
     }

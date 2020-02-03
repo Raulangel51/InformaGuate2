@@ -6,13 +6,14 @@
     tools:context=".antigua_information">
 
     <TextView
+        android:id="@+id/article_heading"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/article_heading"
         android:padding="@dimen/padding_regular"
+        android:text="@string/antigua_guatemala"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
-        android:textStyle="bold"
-        android:text="@string/antigua_guatemala" />
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="match_parent"
@@ -27,7 +28,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:id="@+id/scroll"
         android:layout_below="@id/article_subheading">
 
@@ -38,7 +39,7 @@
             android:layout_below="@id/article_subheading"
             android:lineSpacingExtra="5sp"
             android:padding="@dimen/padding_regular"
-            android:text="@string/article_text" />
+            android:text="@string/article_antigua" />
 
     </ScrollView>
 

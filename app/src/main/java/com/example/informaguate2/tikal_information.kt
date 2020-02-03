@@ -9,6 +9,7 @@ import android.widget.Toast
 
 class tikal_information : AppCompatActivity() {
 
+    //variables a utilizar
     lateinit var  comentario: EditText;
     lateinit var intento: Intent;
 
@@ -20,9 +21,11 @@ class tikal_information : AppCompatActivity() {
     }
 
     fun regresar(view: View){
+        //intent para mandar a la principal
         intento = Intent(this, MainActivity::class.java);
         startActivity(intento);
 
+        //muestra el toast con el principal
         val toast = Toast.makeText(applicationContext, comentario.text, Toast.LENGTH_SHORT)
         toast.show();
 
